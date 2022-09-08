@@ -20,8 +20,8 @@ header{
     display: flex;
     justify-content: space-between; 
     padding: 5%; 
-    margin: 0; 
-    background: #FFFFFF;
+    margin: 0 auto; 
+    background: white;
 }
 
 .header-icon{
@@ -50,8 +50,10 @@ main{
 
 .avatar{
     max-height: inherit;
+    max-width: 450px;
     border-radius: 15px;
     padding: 0; 
+    margin: 0;
 }
 
 .dog-info{
