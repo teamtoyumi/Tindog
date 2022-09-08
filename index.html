@@ -1,8 +1,26 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
         <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     </head>
     <body>
+        <div class="container">
+        <header>
+            <image src="images/icon-profile.png" alt="profile icon" class="header-icon">
+            <image src="images/logo.png" alt="logo" class="header-icon">
+            <image src="images/icon-chat.png" alt="chat icon" class="header-icon">
+        </header>
+        <main>
+            <div class="dog-container" id="dog-container">
+            </div>
+            <div class="actions">
+                <button id="btn-swipe" class="btn swipe"><image src="images/icon-cross.png" alt="swipe"></button>
+                <button id="btn-like" class="btn like"><image src="images/icon-heart.png" alt="like"></button>
+            </div>
+        </main>
+        </div>
         <script src="/index.js" type="module"></script>
     </body>
 </html>

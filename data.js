@@ -24,4 +24,5 @@ const dogs = [
     }
 ]
 
-// Remember to export the data!
+
+export default dogs
