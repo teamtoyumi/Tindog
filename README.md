@@ -1,4 +1,7 @@
-# co0e64371a0120af20b5f91e9
+# My TinDog Solo Project
+
+This is the first solo project I uploaded on Github
+
 
 ## About Scrimba
 
